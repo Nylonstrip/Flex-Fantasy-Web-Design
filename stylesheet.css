@@ -1,0 +1,181 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  border: 5px solid #da562f;
+  background-color: aliceblue;
+  border-radius: 20px;
+  margin: 20px;
+}
+
+.intro, .howweserve, .better, .offering1,
+.offering2, .pricing, .testimonials, 
+.calltoaction, .flex, .calltoaction2{
+  display: flex;
+  gap: 10px;
+}
+
+.intro {
+  margin: 20px;
+  flex-direction: column;
+  border: 5px solid yellow;
+  width: 300px;
+}
+
+.howweserve {
+  border: 5px solid red;
+  flex-direction: column;
+  align-items: center;
+  width: 600px;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.better {
+  border: 5px solid purple;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.better1 {
+  display: flex;
+}
+
+.offering1 {
+  border: 5px solid green;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.offering2 {
+  border: 5px solid brown;
+}
+
+.pricing {
+  border: 5px solid cadetblue;
+}
+
+.testimonials {
+  border: 5px solid  palevioletred;
+  flex-direction: column;
+  text-align: center;
+}
+
+.calltoaction {
+  border: 5px solid turquoise;
+  width: 700px;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+
+.calltoaction2 {
+  flex-direction: row;
+
+}
+
+.shortcuts {
+  display: flex;
+}
+
+.bottom {
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+.flex {
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 0 auto;
+  gap: 50px;
+}
+
+.flex1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.title3 {
+  text-align: center;
+}
+
+h3 {
+  text-wrap: wrap;
+}
+
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #eee;
+}
+
+.footer2 {
+  display: flex;
+}
+
+
+
+.hheading1 {
+  color: #da562f;
+  font-size: 32px;
+  font-weight: bolder;
+  text-decoration: underline;
+}
+.hheading2 {
+  color:#9c2b09;
+  font-size: medium;
+  font-weight: lighter;
+}
+.hheading3 {
+  color:#310b00;
+  font-weight:bolder;
+}
+  
+.head1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.head2 {
+  display: flex;
+  gap: 20px;
+}
+
+body {
+  background-color: #eeeeee;
+}
+
+
+
+.rainbow {
+    font-size: 150px;
+    display: inline-block;
+    margin-top: 1rem;
+    text-shadow: 2px 2px 4px #000000;
+    -webkit-animation: rainbow 5s infinite;
+}
+
+@-webkit-keyframes rainbow{
+    0%{color: orange;}
+    10%{color: purple;} 
+    20%{color: red;}
+    30%{color: CadetBlue;}
+    40%{color: yellow;}
+    50%{color: coral;}
+    60%{color: green;}
+    70%{color: cyan;}
+    80%{color: DeepPink;}
+    90%{color: DodgerBlue;}
+    100%{color: orange;}
+  }
+}
